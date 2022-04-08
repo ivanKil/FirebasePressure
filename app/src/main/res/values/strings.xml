@@ -9,4 +9,10 @@
 
     <string name="hello_first_fragment">Hello first fragment</string>
     <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="name">Верхнее давление</string>
+    <string name="pressure_low">Нижнее давление</string>
+    <string name="pulse">Пульс</string>
+    <string name="add_measure">Добавление показаний</string>
+    <string name="cancel">Отменить</string>
+    <string name="ok">Сохранить</string>
 </resources>

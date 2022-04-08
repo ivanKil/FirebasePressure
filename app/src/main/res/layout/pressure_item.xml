@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/pressure_card"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="@dimen/padding_item"
+    android:background="@drawable/pressure_background_normal"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <TextView
+        android:id="@+id/time"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:textSize="@dimen/time_size"
+        tools:text="08:24" />
+
+    <TextView
+        android:id="@+id/pressure"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@id/time"
+        app:layout_constraintEnd_toStartOf="@id/pulse"
+        android:textSize="@dimen/pressure_size"
+        android:textColor="@color/black"
+        tools:text="120/80" />
+
+    <TextView
+        android:id="@+id/pulse"
+        android:drawableLeft="@drawable/ic_baseline_favorite_24"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:textSize="@dimen/pulse_size"
+        tools:text="60" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

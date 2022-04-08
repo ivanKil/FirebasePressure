@@ -1,3 +1,8 @@
 <resources>
     <dimen name="fab_margin">16dp</dimen>
+    <dimen name="time_size">20sp</dimen>
+    <dimen name="pressure_size">50sp</dimen>
+    <dimen name="date_size">25sp</dimen>
+    <dimen name="padding_item">10dp</dimen>
+    <dimen name="pulse_size">40sp</dimen>
 </resources>
